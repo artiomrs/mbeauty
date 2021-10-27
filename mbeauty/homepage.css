@@ -1,0 +1,146 @@
+*{
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+body{
+  background-color: black;
+}
+header{
+  min-height: 100vh;
+  width: 100%;
+  background: #000;
+  position: relative;
+  color: #fff;
+}
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  z-index: 1;
+}
+#logo{
+font-size: 30px;
+font-weight: bold;
+padding-top: 10px;
+padding-left: 10%;
+color: white;
+text-decoration: none;
+}
+#logo:hover{
+  color: yellow;
+}
+
+.links{
+  text-align: right;
+  color: #fff;
+
+
+}
+.links ul{
+  color:white;
+  list-style: none;
+  display: inline-flex;
+  background: red;
+  padding: 10px 30px;
+  border-bottom-left-radius: 20px;
+  font-weight:  bold;
+  font-size: 20px;
+  cursor: pointer;
+}
+.links ul li {
+  margin-right: 80px;
+  margin-top: 30px;
+}
+.active, .links ul li:hover{
+  background: #grey;
+  border-radius: 5px;
+  color: lightblue;
+}
+.links ul li a{
+  text-decoration: none;
+  font-weight: bold;
+  color:#fff;
+}
+.left-sidebar{
+  width: 20%;
+  height: 100%;
+  position:absolute;
+  background: red;
+  top: 0;
+  left: 0;
+  border-top-right-radius: 20px;
+}
+.row{
+  padding: 0 10%;
+  align-items: flex-end;
+  display: flex;
+  margin-top: 5%;
+  position: relative;
+  justify-content: space-between;
+}
+.col-left{
+  flex-basis: 40%;
+}
+.col-right{
+  flex-basis: 55%;
+}
+.col-left img{
+  width: 254%;
+  margin-top: 221px;
+  margin-left: 175px;
+  border-top-right-radius: 10%;
+  border-bottom-right-radius: 10%;
+    border-bottom-left-radius: 10%;
+      border-top-left-radius: 10%;
+      filter: grayscale(1%);
+      cursor: pointer;
+      transition: filter 1s;
+}
+.col-left img :hover{
+filter: drop-shadow(16px 16px 20px red) invert(20%);
+}
+.col-right h1{
+  color: #fff;
+  margin-left: 600px;
+  margin-top: 430px;
+  width: 280px;
+font-size: 50px;
+
+
+}
+.col-right p{
+  margin-left: 500px;
+  margin-top: 45px;
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  margin-right: -200px;
+}
+
+#site{
+  width: 80px;
+  margin-top: 700px;
+  margin-left: 700px;
+  border-top-right-radius: 15%;
+  border-bottom-right-radius: 15%;
+    border-bottom-left-radius: 15%;
+      border-top-left-radius: 15%;
+}
+.site a{
+  position: relative;
+  width: 80px;
+
+}
+#tik{
+  width: 76px;
+  height: 70px;
+  border-top-right-radius: 15%;
+  border-bottom-right-radius: 15%;
+    border-bottom-left-radius: 15%;
+      border-top-left-radius: 15%;
+      margin-left: 23px;
+      margin-bottom: 2px;
+
+}
